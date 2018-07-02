@@ -4,6 +4,9 @@ Implemented as an ASP.NET Core server with two controllers
 One Controller (Admin) exposes a graphiql page allowing interactive queries
 The other controller is the API controller to make graphql queries against (api/graph)
 
+Queries made against this server may use filters and sort orders expressed as string. This functionality is provided
+by Microsoft.Linq.Dynamic nuget package
+
 After you build the server, run it (CTRL-F5) and enter a query like
 
 ```
