@@ -1,0 +1,25 @@
+﻿type Query
+{
+	products: Products!
+}
+
+type Products
+{
+	where(exp: String!): Products!
+	orderBy(exp: String!): Products!
+
+	select(start: Int = -1, count: Int = -1): [Product!]!
+}
+
+type Product
+{
+	id: ID!
+	name: String!
+	category: String!
+	price: Decimal!
+}
+
+type Schema
+{
+	query: Query!
+}

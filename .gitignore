@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/GraphQL.Linq/.vs
+/GraphQL.Linq/GraphQL.Linq/bin/Debug/netcoreapp2.1
+/GraphQL.Linq/GraphQL.Linq/obj
